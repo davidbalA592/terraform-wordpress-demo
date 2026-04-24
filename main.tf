@@ -75,6 +75,7 @@ module "database" {
 
   identifier            = "codio-database"
   engine                = "mysql"
+  engine_version        = "8.0"
   allocated_storage     = 5
   instance_class        = "db.t3.micro"
   db_name               = local.database
